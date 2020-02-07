@@ -1,0 +1,26 @@
+{
+  "name": "simple-kerberos",
+  "version": "1.0.0",
+  "description": "Kerberos made easy",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunjit3/simple-kerberos.git"
+  },
+  "keywords": [
+    "simple",
+    "kerberos",
+  ],
+  "author": {
+    "name": "Gunjit Mishra",
+    "email": "gunjit3788@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gunjit3/simple-kerberos/issues"
+  },
+  "homepage": "https://github.com/gunjit3/simple-kerberos#readme"
+}
