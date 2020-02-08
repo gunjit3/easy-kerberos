@@ -7,13 +7,14 @@ export default pify((token, cb) => {
         if(err) {
             cb(new Error("Error occured while initializing kerberos"));
         }
-        server.step(token, function (err) {
+        server.step(token, function (err, serverResponse) {
             if(err || ! server.contextComplete) {
                 cb(new Error("Error occured while authenticating with kerberos "));
             }
 
-            const username = server.username;
-            cb(null, username);
+            cb(null, {"username": server.username,
+                     "principle": server.targetName,
+                     "serverResponse": serverResponse});
         });
     });
 
