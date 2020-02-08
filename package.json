@@ -1,5 +1,5 @@
 {
-  "name": "simple-kerberos",
+  "name": "easy-kerberos",
   "version": "1.0.0",
   "description": "Kerberos made easy",
   "main": "dist/index.js",
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gunjit3/simple-kerberos.git"
+    "url": "git+https://github.com/gunjit3/easy-kerberos.git"
   },
   "keywords": [
-    "simple",
+    "easy",
     "kerberos"
   ],
   "author": {
@@ -23,9 +23,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gunjit3/simple-kerberos/issues"
+    "url": "https://github.com/gunjit3/easy-kerberos/issues"
   },
-  "homepage": "https://github.com/gunjit3/simple-kerberos#readme",
+  "homepage": "https://github.com/gunjit3/easy-kerberos#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
