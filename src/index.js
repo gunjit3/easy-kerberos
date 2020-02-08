@@ -7,7 +7,7 @@ export default pify((token, cb) => {
         if(err) {
             cb(new Error("Error occured while initializing kerberos"));
         }
-        server.step(token, function (err, serverResponse) {
+        server.step(token, function (err) {
             if(err || ! server.contextComplete) {
                 cb(new Error("Error occured while authenticating with kerberos "));
             }
