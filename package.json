@@ -4,6 +4,7 @@
   "description": "Kerberos made easy",
   "main": "dist/index.js",
   "scripts": {
+    "prepublish": "npm run build",
     "lint": "eslint src/index.js",
     "babel": "babel src/index.js -d dist",
     "build": "npm run lint && rimraf dist && npm run babel",
